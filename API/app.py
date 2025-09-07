@@ -39,3 +39,8 @@ def get_warriors_got():
 def get_cursos_platzi():
     rows = ["Curso de Python", "Curso de FastAPI", "Curso de Data Science", "Curso de Machine Learning", "Curso de React"]
     return rows
+
+@app.get("/testROYforConflict")
+def get_warriors_got():
+    rows = ["Conflict1","Conflict2"]
+    return rows
